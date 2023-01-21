@@ -1,0 +1,108 @@
+.webpage {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.subtext {
+    display: flex;
+}
+
+.leftsubtext {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.rightsubtext {
+    display: flex;
+    flex: 1;
+}
+
+.header .left-header {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+a, .subtext .leftsubtext .bodytext {
+color: #e5e7eb;
+font-size: 18px;
+}
+
+.subtext .leftsubtext .header {
+    color: #f0faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+.randominfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.randominfo .header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.infographics {
+    display: flex;
+}
+
+button, .calltoaction {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.inspiringquote {
+    background-color: #e5e7eb;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.calltoaction {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.calltoaction .calltext {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+}
